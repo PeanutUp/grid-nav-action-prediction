@@ -1,0 +1,11 @@
+name: dataset_a
+num_maps: 1000
+height: 10
+width: 10
+obstacle_min: 0.10
+obstacle_max: 0.30
+seed: 42
+
+train_ratio: 0.7
+val_ratio: 0.1
+test_ratio: 0.2
