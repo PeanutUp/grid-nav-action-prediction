@@ -1,5 +1,5 @@
 """
-BFS & path to action
+BFS search and path-to-action conversion.
 """
 
 from collections import deque
@@ -78,4 +78,3 @@ def path_to_actions(path):
             raise ValueError("Path contains non-adjacent positions.")
 
     return actions
-
